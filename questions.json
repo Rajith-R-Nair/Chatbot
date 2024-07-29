@@ -1,0 +1,165 @@
+[
+  {
+    "questionTxt": "Where exactly is the pain located in your neck? Does it radiate to other areas such as the shoulders, arms, or head?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "When did the pain start? Has it been constant, intermittent, or worsening over time? How long does each episode of pain typically last?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "How would you describe the pain?",
+    "questionType": "Specific",
+    "dataType": "Radio",
+    "choices": ["Sharp", "Dull", "Burning", "Stabbing", "Aching", "Stiffness", "Tightness"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "What activities or movements make the pain worse?",
+    "questionType": "Specific",
+    "dataType": "MultipleChoice",
+    "choices": ["Movement", "Rest", "Touch", "Temperature change", "Other"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "What helps to alleviate the pain? Does changing positions or applying heat or ice provide relief?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you experienced any recent or past trauma to your neck, such as a whiplash injury from a car accident or a sports-related injury?",
+    "questionType": "Specific",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Do you have any pre-existing medical conditions that could contribute to neck pain, such as arthritis, disc herniation, or degenerative disc disease?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "What is your occupation? Do you engage in any activities or habits that may strain the neck, such as prolonged sitting at a desk, heavy lifting, or poor posture?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "How do you typically sleep? Have you noticed any changes in your sleeping habits or positions since the onset of the pain? Do you wake up with neck pain in the morning?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Do you experience any headaches, particularly ones that seem to originate from the base of your skull or the back of your head?",
+    "questionType": "Specific",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you noticed any numbness, tingling, or weakness in your arms or hands? Does this sensation extend from the neck area?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you tried any treatments or interventions for your neck pain? If so, what was the outcome?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "How does the pain in your neck affect your daily activities, such as work, exercise, or household chores?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Do you experience any neurological symptoms in addition to neck pain, such as numbness, tingling, or weakness in the arms or hands? Are these symptoms constant or do they come and go?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you noticed any changes in bowel or bladder function, such as difficulty urinating or having a bowel movement, or loss of control (incontinence)? Do you experience any numbness or tingling around the perineal area?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Do you experience pain or discomfort in areas other than the neck, such as the upper back, shoulders, or chest? Does the pain in these areas seem to be related to your neck symptoms?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "How do you typically sleep at night? Do you use any specific pillows or sleep positions to alleviate neck pain? Do you wake up during the night due to neck discomfort or stiffness?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "How do your neck symptoms affect your social life and interactions with others? Are there any social activities or hobbies that you have had to limit or avoid due to neck pain?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "How do you cope with the emotional aspects of living with chronic neck pain? Have you experienced feelings of frustration, anxiety, or depression related to your neck symptoms?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you tried any self-care techniques, such as stretching exercises or heat therapy, to manage your neck symptoms? How effective have these treatments been in providing relief?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Is there a family history of cervical spine disorders or conditions such as arthritis, degenerative disc disease, or spinal cord compression? Have any family members experienced similar symptoms to yours?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Do you smoke or consume alcohol? If so, how much and how often? Are you involved in any physical activities or sports that may impact your neck symptoms?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "What are your expectations for treatment of your neck symptoms? Are there specific goals you would like to achieve in terms of pain relief, functional improvement, or lifestyle modifications?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you considered or tried any alternative therapies or complementary treatments for your neck pain, such as acupuncture, massage therapy, or herbal supplements? If so, what was your experience with these treatments?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "What are the physical demands of your work environment? Are there any ergonomic issues or repetitive tasks that may contribute to your neck symptoms? Have you discussed your neck pain with your employer or made any accommodations in the workplace?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "How knowledgeable do you feel about your neck symptoms and their potential causes? Are there any specific questions or concerns you have about your condition that you would like to discuss?",
+    "questionType": "Specific",
+    "dataType": "String",
+    "bodypartId": 2
+  }
+]
+  
+
+

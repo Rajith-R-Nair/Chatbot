@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a964deef-8d06-43b7-b510-7a8c7c57a600" name="Changes" comment="Fixed bodymap displaying correct names">
+      <change afterPath="$PROJECT_DIR$/src/pages/questionpage/report.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/answers/readAnswers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/answers/readAnswers.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dJZLe5mQKMGETZ6PB7Wt2xw0Af" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "test3__magnus",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kristoffer Kvam/Documents/GitHub/Positival-Chatbot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Users\\Kristoffer Kvam\\Documents\\GitHub\\demo_chatbot\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/generalQuestions" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a964deef-8d06-43b7-b510-7a8c7c57a600" name="Changes" comment="" />
+      <created>1709728086824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709728086824</updated>
+      <workItem from="1709728088678" duration="337000" />
+      <workItem from="1709728596134" duration="101000" />
+      <workItem from="1709728723281" duration="488000" />
+      <workItem from="1709729227146" duration="2717000" />
+      <workItem from="1709733069394" duration="355000" />
+      <workItem from="1709733465689" duration="466000" />
+      <workItem from="1709734070037" duration="66000" />
+      <workItem from="1709734416325" duration="172000" />
+      <workItem from="1709734823226" duration="852000" />
+      <workItem from="1709752866347" duration="2427000" />
+      <workItem from="1709836943103" duration="1772000" />
+      <workItem from="1714124066627" duration="36537000" />
+      <workItem from="1717682062866" duration="1190000" />
+    </task>
+    <task id="LOCAL−00001" summary="Prisma og annet">
+      <option name="closed" value="true" />
+      <created>1709734995633</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1709734995634</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Added User, Bodypart and Question to the database">
+      <option name="closed" value="true" />
+      <created>1709756140860</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1709756140860</updated>
+    </task>
+    <task id="LOCAL−00003" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1709836991787</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1709836991787</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Opprettet database, implementert prisma filer">
+      <option name="closed" value="true" />
+      <created>1709841460172</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1709841460172</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Opprettet database, implementert prisma filer, laget en question.json fil">
+      <option name="closed" value="true" />
+      <created>1710499830526</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1710499830526</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Fyller databasen med spørsmål">
+      <option name="closed" value="true" />
+      <created>1710768207313</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1710768207313</updated>
+    </task>
+    <task id="LOCAL−00007" summary="CRUD Questions">
+      <option name="closed" value="true" />
+      <created>1711393523219</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1711393523220</updated>
+    </task>
+    <task id="LOCAL−00008" summary="followUp">
+      <option name="closed" value="true" />
+      <created>1712920512162</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1712920512162</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Fixed followUpQuestions">
+      <option name="closed" value="true" />
+      <created>1714127357334</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1714127357334</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Fixed bodymap displaying correct names">
+      <option name="closed" value="true" />
+      <created>1717721726053</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1717721726053</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prisma og annet" />
+    <MESSAGE value="Added User, Bodypart and Question to the database" />
+    <MESSAGE value="workspace.xml" />
+    <MESSAGE value="Opprettet database, implementert prisma filer" />
+    <MESSAGE value="Opprettet database, implementert prisma filer, laget en question.json fil" />
+    <MESSAGE value="Fyller databasen med spørsmål" />
+    <MESSAGE value="CRUD Questions" />
+    <MESSAGE value="followUp" />
+    <MESSAGE value="Fixed followUpQuestions" />
+    <MESSAGE value="Bodymap routes body parts. Page displays the questions in correct order" />
+    <MESSAGE value="Fixed bodymap displaying correct names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bodymap displaying correct names" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

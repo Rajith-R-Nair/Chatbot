@@ -1,0 +1,70 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String   @id @default(uuid())
+  username String
+  password String
+  email    String
+  answer   Answer[]
+}
+
+model Bodypart {
+  id           Int        @id @default(autoincrement())
+  bodypartname String
+  question     Question[]
+  QuestionID   Int @unique
+}
+
+model BackBodypart {
+  id           Int        @id @default(autoincrement())
+  bodypartname String
+  question     Question[]
+  QuestionID   Int @unique
+}
+
+model Question {
+  id              Int              @id @default(autoincrement())
+  bodypartId      Int?
+  bodypart        Bodypart?        @relation(fields: [bodypartId], references: [QuestionID])
+  backBodypartId  Int?
+  backBodypart    BackBodypart?    @relation(fields: [backBodypartId], references: [QuestionID])
+  questionTxt     String           @unique
+  date            DateTime         @default(now())
+  questionType    String
+  dataType        String
+  Answer          Answer[]
+  questionChoice  QuestionChoice[] @relation("ChoiceToQuestion")
+  followUpChoices QuestionChoice[] @relation("ChoiceToFollowUpQuestion")
+}
+
+model Answer {
+  id         Int      @id @default(autoincrement())
+  questionId Int
+  question   Question @relation(fields: [questionId], references: [id])
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  answerTxt  String
+  date       DateTime
+}
+
+model QuestionChoice {
+  id                 Int       @id @default(autoincrement())
+  questionId         Int
+  question           Question  @relation("ChoiceToQuestion", fields: [questionId], references: [id])
+  choiceTxt          String
+  followUpQuestionId Int?
+  followUpQuestion   Question? @relation("ChoiceToFollowUpQuestion", fields: [followUpQuestionId], references: [id])
+}
