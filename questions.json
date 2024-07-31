@@ -1,5 +1,5 @@
-[
-  {
+ [
+ {
     "questionTxt": "Where exactly is the pain located in your neck? Does it radiate to other areas such as the shoulders, arms, or head?",
     "questionType": "Specific",
     "dataType": "String",
@@ -158,8 +158,68 @@
     "questionType": "Specific",
     "dataType": "String",
     "bodypartId": 2
+  },
+  {
+    "questionTxt": "Are you experiencing double vision?",
+    "questionType": "Red Flag",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Do you feel dizzy?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you had any sudden falls or collapses?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Are you having difficulty speaking clearly?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Are you experiencing trouble swallowing?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Do you have problems with coordination?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Are you feeling nauseous?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Are you experiencing numbness?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
+  },
+  {
+    "questionTxt": "Have you noticed involuntary eye movements?",
+    "questionType": " Red Flag ",
+    "dataType": "Radio",
+    "choices": ["Yes", "No"],
+    "bodypartId": 2
   }
 ]
-  
-
-
